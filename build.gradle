@@ -20,10 +20,10 @@ dependencies {
 
 repositories {
 	maven {
-		url "https://repository-cdn.liferay.com/nexus/content/groups/public"
+		url "https://liferay-test-01.ci.cloudbees.com/job/liferay-blade-cli/587/artifact/mavenRepo/"
 	}
 
 	maven {
-		url "https://liferay-test-01.ci.cloudbees.com/job/liferay-blade-cli/587/artifact/mavenRepo/"
+		url "https://repository-cdn.liferay.com/nexus/content/groups/public"
 	}
 }
