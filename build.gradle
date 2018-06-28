@@ -20,7 +20,7 @@ dependencies {
 
 repositories {
 	maven {
-		url "https://jenkins-lide.wedeploy.io/job/liferay-blade-cli/2/artifact/mavenRepo/"
+		url "https://jenkins-ide.wedeploy.io/job/liferay-blade-cli/lastSuccessfulBuild/artifact/mavenRepo/"
 	}
 
 	maven {
