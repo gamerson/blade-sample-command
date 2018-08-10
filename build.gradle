@@ -15,12 +15,12 @@ apply plugin: 'java'
 
 dependencies {
 	compileOnly group: "com.beust", name: "jcommander", version: "1.72"
-	compileOnly group: "com.liferay.blade", name: "com.liferay.blade.cli", version: "3.1.0"
+	compileOnly group: "com.liferay.blade", name: "com.liferay.blade.cli", version: "latest.release"
 }
 
 repositories {
 	maven {
-		url "https://jenkins-ide.wedeploy.io/job/liferay-blade-cli/lastSuccessfulBuild/artifact/mavenRepo/"
+		url "https://jenkins-ide.lfr.io/job/liferay-blade-cli/lastSuccessfulBuild/artifact/mavenRepo/"
 	}
 
 	maven {
