@@ -15,7 +15,7 @@ apply plugin: 'java'
 
 dependencies {
 	compileOnly group: "com.beust", name: "jcommander", version: "1.72"
-	compileOnly group: "com.liferay.blade", name: "com.liferay.blade.cli", version: "latest.release"
+	compileOnly group: "com.liferay.blade", name: "com.liferay.blade.cli", version: "4.0.6"
 }
 
 repositories {
